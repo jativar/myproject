@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 
-Welcome to myproject's documentation!
-=====================================
+Bienvenido a la guia del usuario del sistema conozca a su cliente
+=================================================================
 
-Welcome to the complete guide to Proyecto 1.0.0
+
 
 Who is the documentation for?
 
