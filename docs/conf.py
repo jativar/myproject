@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Home - Conozca a su cliente'
+project = 'rule2090'
 copyright = '2022, Ramiro Jativa'
 author = 'Ramiro Jativa'
 
