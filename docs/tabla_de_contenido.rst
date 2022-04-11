@@ -3,7 +3,7 @@ Tabla de contenido
 
 * :ref:`Que es el sistema conozca a su cliente? <ref_001>`
 * :ref:`Seguridades en el sistema <ref_002>`
-* :ref:'Política de privacidad y condiciones de uso del sistema <ref_003>`
+* :ref:`Política de privacidad y condiciones de uso del sistema <ref_003>`
 * Pantalla de bienvenida al sistema
 * Ingreso al sistema
 * Interfaz de barras de navegación del sistema
