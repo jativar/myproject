@@ -13,7 +13,7 @@ MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Antes de que inicie:
 
    beforeyoubegin
 
