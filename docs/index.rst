@@ -15,12 +15,12 @@ MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
    :maxdepth: 2
    :caption: Antes de que inicie:
 
-   beforeyoubegin
+   antes_de_que_inicie
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Beginners
+   :caption: Entrenamiento
 
    creating
 
