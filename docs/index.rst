@@ -6,10 +6,13 @@
 MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
 ===================================================
 
-Para obtener información del sistema no dude en contactarse con:
 
-Ramiro Jativa
-E-Mail: jativa.ramiro@gmail.com
+
+Guía de referencia avanzada, autoaprendizaje y práctica del sistema conoce tu cliente. Para estudiantes y usuarios avanzados de procesos de debida diligencia.
+Incluye ejemplos
+Escrito por Ramiro Játiva
+Fundador y propietario de ICM, una consultora dedicada a brindar servicios de consultoría de gestión de innovación y cambio utilizando tecnologías exponenciales.
+
 
 .. toctree::
    :maxdepth: 2
