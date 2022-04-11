@@ -2,7 +2,7 @@ Tabla de contenido
 ==================
 
 * :ref:`Que es el sistema conozca a su cliente? <ref_001>`
-* Seguridades en el sistema
+* :ref:`Seguridades en el sistema <ref_002>`
 * Política de privacidad y condiciones de uso del sistema
 * Pantalla de bienvenida al sistema
 * Ingreso al sistema
@@ -48,8 +48,16 @@ El sistema incluye módulos de soporte para el registro de datos de la manera m�
 
 
 El registro digital de los procedimientos de debida diligencia implementados en el sistema permitirá anticipar con relativa certeza los tipos de transacciones y operaciones del cliente y determinar aquellas que son inusuales. 
+
+
+.. _ref_002:
+
 Seguridades en el sistema 
+-------------------------
+
 Uso del protocolo HTTPS
++++++++++++++++++++++++
+
 HTTPS (Protocolo seguro de transferencia de hipertexto) es una versión cifrada del protocolo HTTP. Utiliza SSL o TLS para cifrar todas las comunicaciones entre un cliente y un servidor. Esta conexión segura permite a los clientes estar seguros de que están conectados con el servidor deseado e intercambiar datos confidenciales. (fuente: https://developer.mozilla.org/en-US/docs/Web/Security )
 
 
