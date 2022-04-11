@@ -1,7 +1,7 @@
 Tabla de contenido
 ==================
 
-* Que es el sistema conozca a su cliente?
+* :ref:`Que es el sistema conozca a su cliente? <ref_001>`
 * Seguridades en el sistema
 * Política de privacidad y condiciones de uso del sistema
 * Pantalla de bienvenida al sistema
@@ -35,6 +35,23 @@ This video will teach you everything you need to know about creating subtitles, 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/DSIuLnoKLd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
+
+.. _ref_001:
+   
+Que es el sistema conozca a su cliente?
+El sistema conozca a su cliente es un sistema desarrollado para apoyar las tareas de la debida diligencia en lo que respecta a la prevención del lavado de activos y financiamiento del terrorismo. 
+
+
+El sistema incluye módulos de soporte para el registro de datos de la manera más eficiente y diligente posible para conocer adecuadamente a los clientes, reforzando el conocimiento de aquellos que por su actividad o condición son sensibles al lavado de activos o financiamiento del terrorismo.
+
+
+El registro digital de los procedimientos de debida diligencia implementados en el sistema permitirá anticipar con relativa certeza los tipos de transacciones y operaciones del cliente y determinar aquellas que son inusuales. 
+Seguridades en el sistema 
+Uso del protocolo HTTPS
+HTTPS (Protocolo seguro de transferencia de hipertexto) es una versión cifrada del protocolo HTTP. Utiliza SSL o TLS para cifrar todas las comunicaciones entre un cliente y un servidor. Esta conexión segura permite a los clientes estar seguros de que están conectados con el servidor deseado e intercambiar datos confidenciales. (fuente: https://developer.mozilla.org/en-US/docs/Web/Security )
+
+
+
 
 .. _open1:
 
