@@ -3,18 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Guia del usuario del sistema conozca a su cliente
-=================================================================
+MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
+===================================================
 
+Para obtener información del sistema no dude en contactarse con:
 
-
-Who is the documentation for?
-
-You do not need to know anything.
-
-If you are completely new to JUbler. :ref:`Install Jubler first <settingup>` and then explore these pages:
-
-
+Ramiro Jativa
+E-Mail: jativa.ramiro@gmail.com
 
 .. toctree::
    :maxdepth: 2
@@ -28,6 +23,13 @@ If you are completely new to JUbler. :ref:`Install Jubler first <settingup>` and
    :caption: Beginners
 
    creating
+
+
+.. toctree::
+   :maxdepth: 10
+   :caption: Tabla de Contenido
+
+   tabla_de_contenido
 
 
 Indices and tables
