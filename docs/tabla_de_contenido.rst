@@ -39,6 +39,8 @@ This video will teach you everything you need to know about creating subtitles, 
 .. _ref_001:
    
 Que es el sistema conozca a su cliente?
+---------------------------------------
+
 El sistema conozca a su cliente es un sistema desarrollado para apoyar las tareas de la debida diligencia en lo que respecta a la prevención del lavado de activos y financiamiento del terrorismo. 
 
 
