@@ -6,10 +6,12 @@
 MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
 ===================================================
 
-Referencia avanzada de autoaprendizaje y práctica del sistema **conozca su cliente**. Para estudiantes y usuarios avanzados de procesos de debida diligencia.
-Incluye ejemplos
-Escrito por Ramiro Játiva
-Fundador y propietario de ICM, una consultora dedicada a brindar servicios de consultoría de gestión de innovación y cambio utilizando tecnologías exponenciales.
+| Referencia avanzada de autoaprendizaje y práctica del sistema **conozca su cliente**. Para estudiantes y usuarios avanzados de procesos de debida diligencia.
+|
+| Incluye ejemplos
+|
+| Escrito por Ramiro Játiva
+| Fundador y propietario de ICM, una consultora dedicada a brindar servicios de consultoría de gestión de innovación y cambio utilizando tecnologías exponenciales.
 
 
 .. toctree::
