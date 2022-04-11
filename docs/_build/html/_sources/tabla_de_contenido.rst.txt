@@ -60,6 +60,9 @@ Uso del protocolo HTTPS
 
 HTTPS (Protocolo seguro de transferencia de hipertexto) es una versión cifrada del protocolo HTTP. Utiliza SSL o TLS para cifrar todas las comunicaciones entre un cliente y un servidor. Esta conexión segura permite a los clientes estar seguros de que están conectados con el servidor deseado e intercambiar datos confidenciales. (fuente: https://developer.mozilla.org/en-US/docs/Web/Security )
 
+.. admonition:: Para mayor información sobre el protocolo HTTPS
+
+   Consulte el enlace siguiente: https://developer.mozilla.org/en-US/docs/Web/Security
 
 
 Claves de usuario almacenadas con técnicas de hash seguras
