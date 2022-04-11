@@ -3,11 +3,11 @@ Capturas de pantalla
 
 Ejemplos de capturas de pantalla.
 
-* :ref:`Captura de pantalla 1 <open>` 
-* :ref:`Captura de pantalla 2 <open>` 
-* :ref:`Captura de pantalla 3 <open>` 
-* :ref:`Captura de pantalla 4 <open>` 
-* :ref:`Captura de pantalla 5 <open>` 
+* :ref:`Captura de pantalla 1 <pantalla_1>` 
+* :ref:`Captura de pantalla 2 <pantalla_1>` 
+* :ref:`Captura de pantalla 3 <pantalla_1>` 
+* :ref:`Captura de pantalla 4 <pantalla_1>` 
+* :ref:`Captura de pantalla 5 <pantalla_1>` 
 
 
 
@@ -19,19 +19,25 @@ This video will teach you everything you need to know about creating subtitles, 
 
    
 
-.. _open:
+.. _pantalla_1:
 
-Opening a New Subtitle File 
----------------------------
+Captura de pantalla 1 
+---------------------
 
-Before creating your subtitles, you need to create a subtitling project. 
+Descripcion de la pantalla 1.
 
-To create a new subtitling project: 
+.. image:: /images/adjust.png 
 
-1. In the interface, click the **New** |newbutton| button.
 
-.. |newbutton| image:: /images/new_button.png
-               :scale: 15% 
+.. warning:: Advertencia pantalla 1.
+   
+   Descripcion de la advertencia pantalla 1
+
+
+.. admonition:: Recordar!
+
+   Por defecto, la pantalla 1 requiere de los privilegios.
+
 
 
 
