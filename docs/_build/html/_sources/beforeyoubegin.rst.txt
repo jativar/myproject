@@ -11,14 +11,11 @@ Antes de que inicie
 3. Recuerde marcar el campo Recordar y el campo reCAPTCHA
 4. Click en el boton **Ingresar**. 
 
-.. figure:: /images/car.png
-   :alt: Jubler configuration
-   :scale: 40 %
-   :align: center
 
-   *Getting Jubler to use MPlayer*
 
 .. figure:: /images/login.png
    :alt: Formulario de ingreso login.html
    :scale: 100 %
    :align: center
+
+   *Formulario de ingreso de credenciales*
