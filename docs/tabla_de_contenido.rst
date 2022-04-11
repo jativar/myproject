@@ -21,18 +21,6 @@ Tabla de contenido
 * Módulo de matriz de riesgo
 
 
-* :ref:`Open a New Subtitle file <open1>` 
-* Import Subtitles from an External File 
-* Import and Adjust the Appereance of your Video and Audio File 
-* Select and Preview a specific Audio Section 
-* Create Subtitles in the Editor 
-* Other options
-
-This video will teach you everything you need to know about creating subtitles, but if you prefer reading the instrucctions instead, keep scrolling down.
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/DSIuLnoKLd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
 
