@@ -1,10 +1,14 @@
 .. _settingup:
 
 
-Setting up Jubler
-=================
+Antes de que inicie
+===================
 
-This section will teach you how to download and set up Jubler and get Jubler to use MPlayer.
+En esta sección se encuentra el enlace al sistema conozca a su cliente.
+
+* Enlace al sistema conozca a su cliente: https://rule2090.pythonanywhere.com/
+
+
 
 Download Jubler and MPlayer
 ---------------------------
