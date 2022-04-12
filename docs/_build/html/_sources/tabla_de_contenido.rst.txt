@@ -4,21 +4,21 @@ Tabla de contenido
 * :ref:`Que es el sistema conozca a su cliente? <ref_001>`
 * :ref:`Seguridades en el sistema <ref_002>`
 * :ref:`Política de privacidad y condiciones de uso del sistema <ref_003>`
-* Pantalla de bienvenida al sistema
-* Ingreso al sistema
-* Interfaz de barras de navegación del sistema
-* Menú principal del sistema
-* Módulo tablero
-* Menú módulos
-* Módulo Inversionistas
-* Módulo Inversiones
-* Módulo Registro de Labor Comercial
-* Módulo Control de Calidad
-* Módulo de la debida diligencia o DD
-* Módulo varios
-* Módulo de búsquedas
-* Módulo de reportes
-* Módulo de matriz de riesgo
+* :ref:`Pantalla de bienvenida al sistema <ref_004>`
+* :ref:`Ingreso al sistema <ref_005>`
+* :ref:`Interfaz de barras de navegación del sistema <ref_006>`
+* :ref:`Menú principal del sistema <ref_007>`
+* :ref:`Módulo tablero <ref_008>`
+* :ref:`Menú módulos <ref_009>`
+* :ref:`Módulo Inversionistas <ref_010>`
+* :ref:`Módulo Inversiones <ref_011>`
+* :ref:`Módulo Registro de Labor Comercial <ref_012>`
+* :ref:`Módulo Control de Calidad <ref_013>`
+* :ref:`Módulo de la debida diligencia o DD <ref_014>`
+* :ref:`Módulo varios <ref_015>`
+* :ref:`Módulo de búsquedas <ref_016>`
+* :ref:`Módulo de reportes <ref_017>`
+* :ref:`Módulo de matriz de riesgo <ref_018>`
 
 
 
@@ -97,31 +97,64 @@ Política de privacidad y condiciones de uso del sistema
 El sistema cuenta con la política de privacidad, alcance, información de los datos que se recolectan, información de los datos que no se recolectan, la finalidad de la política de privacidad, explicación del proceso para ejercer derecho de acceso y rectificación, descripción del proceso a seguir cuando existan cambios en la política de privacidad, descripción del uso de cookies, descripción de las medidas para precautelar la seguridad de los datos personales, descripción detallada de la base legal Ecuatoriana que sustenta el tratamiento de los datos, descripción de los términos y condiciones de uso del sistema, responsabilidad del sistema, las obligaciones del usuario del sistema, y datos de contacto del proveedor del sistema.
 
 
+
+
+.. _ref_004:
+
+
 Pantalla de bienvenida al sistema
+---------------------------------
+
 Para ingresar al sistema el usuario debe acceder a la página de bienvenida del sistema. Desde esta pantalla el usuario podrá iniciar una sesión en el sistema.  Esta sesión le permitirá registrarse en el sistema. En el registro del sistema el usuario ingresará información como el nombre usuario, dirección de correo electrónico y la clave de acceso. Una vez que el usuario este registrado en el sistema debe esperar que su cuenta de usuario sea autentificada y autorizada por el usuario administrador del sistema. Una vez que el administrador del sistema realice la verificación de los datos personales del usuario procederá a actualizar en el sistema los indicadores de autenticación de la cuenta y de autorización de la cuenta. Únicamente en ese momento el usuario registrado podrá ingresar al sistema.  Adicionalmente en el momento que el administrador del sistema realiza el proceso de autenticación del usuario y de autorización del usuario también asigna los privilegios de acceso a los datos.  Estos privilegios son: crear, consultar, editar y eliminar. Cuando el usuario ingrese al sistema, el sistema validará la cuenta del usuario y registrará la sesión del usuario en una cookie que permite al sistema mantener control de la sesión del usuario. Todas las cuentas de los usuarios responden al modelo de RBAC que son las siglas de Rol Base Access Control y a CRUD que son las siglas de Create, Read, Update y Delete.  El sistema de gestión de roles y privilegios de usuarios permite mantener un nivel de acceso al sistema que valida el rol del usuario para acceder a las páginas del sistema y el nivel de privilegio del usuario para acceder a los datos.  A manera de ilustración si un usuario tiene el rol de ‘comercial’ este usuario no tendrá acceso a las paginas de configuración del sistema ya que estas páginas únicamente pueden ser accedidas por usuarios con el rol de ‘administrador’. Respecto al acceso a los datos, si el usuario tiene privilegios de acceso de solo lectura, el usuario únicamente podrá visualizar la información en el sistema y no podrá crear, eliminar o cambiar los datos. La siguiente pantalla muestra el formato de ingreso al sistema.   La pantalla despliega en la parte izquierda superior el logo de un agente y a un lado el enlace iniciar en color verde. Al dar un click en iniciar, la siguiente pantalla es desplegada:   en esta pantalla el usuario tiene la opción de ingresar al sistema, de registrarse en el sistema o de regresar a la página de bienvenida al sistema. 
+
+
+.. _ref_005:
+
+
 Ingreso al sistema
+------------------
+
 El sistema ofrece un interfaz de usuario amigable para registrarse en el sistema y también para ingresar al sistema. Las pantallas de ingreso al sistema y de registro en el sistema incluyen reCAPTCHA para reforzar la seguridad. Una vez que el usuario ingresa al sistema el sistema desplegará un mensaje que indica que la credencial del usuario ha sido autorizada, y en ese momento es cuando el usuario esta autorizado para ingresar al tablero o dashboard. La pantalla siguiente es un ejemplo del formato de la pantalla de ingreso al sistema:   
 
 
+.. _ref_006:
+
+
 Interfaz de barras de navegación del sistema
+--------------------------------------------
+
 El sistema cuenta con tres barras de navegación horizontales disponibles al usuario. La barra del nivel superior es la barra del módulo que está activo. La barra de navegación del medio es la barra del menú principal en donde el usuario puede seleccionar los módulos a los que desea ir. Y por último la tercera barra de navegación es la barra que se utiliza para el control de la sesión del usuario.  Esta última barra despliega la información de usuario en el siguiente orden: el nombre del usuario que tiene activa la sesión, el estado de autenticación del usuario, el estado de autorización del usuario, el nombre del rol del usuario, la fecha y hora registrada en el sistema correspondiente a la ultima sesión activa del usuario, y los privilegios de acceso a datos de la cuenta de usuario para crear, consultar, editar y eliminar. Los privilegios del usuario se desplegarán en fondo de color gris cuando el privilegio no está activo y en fondo de color azul cuando el privilegio está activo.
 
 
 La captura de pantalla siguiente a manera de ilustración muestra las tres barras de navegación horizontal. El mensaje con fondo de color verde “El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20” es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
 
 
+.. _ref_007:
   
 
 Menú principal del sistema
+--------------------------
+
+
 El menú principal del sistema tiene las opciones para salir del sistema, navegar en la barra de navegación del tablero o dashboard, selección de módulos del sistema, selección de los módulos de debida diligencia o DD, selección de opciones varios y selección en análisis exploratorio de datos o mejor conocido como EDA que son las siglas en lenguaje ingles para Exploratory Data Analysis.
+
+.. _ref_008:
+
+
 Módulo tablero
+--------------
+
 El módulo incluye la opción de configuración y dentro de este módulo están las opciones de la licencia de uso del sistema, de los usuarios del sistema, del idioma seleccionado, de las provincias y de los países. El módulo puede ser accedido únicamente por la cuenta administrador.
 
 
-Licencia de uso: en esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.
+Licencia de uso: 
+++++++++++++++++
+en esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.
 
 
 Usuarios:
++++++++++
+
 El registro de usuarios en el sistema esta implementado con mecanismos de seguridad para garantizar la confidencialidad de la información. Para controlar el nivel de acceso que tiene un usuario y los privilegios de acceso a los datos el sistema se dispone de dos mecanismos.  
 * El RBAC (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el 
 * CRUD (conocido en inglés como Create, Read, Update, Delete) o Crear, Leer, Actualizar y Eliminar.
@@ -135,21 +168,32 @@ la siguiente pantalla es un ejemplo del reporte de usuarios:   la siguiente pant
 
 
 
-Lenguaje: El sistema incluye las opciones para seleccionar el lenguaje de preferencia para navegar en el sistema. Al momento el sistema dispone de tres diccionarios que corresponden a los idiomas español, ingles y tailandés. El lenguaje de preferencia es el español por defecto. La configuración de lenguajes como el inglés o thai pueden ser configurados en el momento de la instalación utilizando los diccionarios correspondientes.
+Lenguaje: 
++++++++++
+
+El sistema incluye las opciones para seleccionar el lenguaje de preferencia para navegar en el sistema. Al momento el sistema dispone de tres diccionarios que corresponden a los idiomas español, ingles y tailandés. El lenguaje de preferencia es el español por defecto. La configuración de lenguajes como el inglés o thai pueden ser configurados en el momento de la instalación utilizando los diccionarios correspondientes.
 
 
-Provincias: El sistema permite realizar la gestión de las provincias en el Ecuador y de las ciudades. En esta opción el usuario establece los niveles de riesgo para las provincias y para las ciudades.
+Provincias: 
++++++++++++
+
+El sistema permite realizar la gestión de las provincias en el Ecuador y de las ciudades. En esta opción el usuario establece los niveles de riesgo para las provincias y para las ciudades.
 
 
-Países: El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
+Países: 
++++++++
+
+El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
 
 
 
 
-________________
+.. _ref_009:
 
 
 Menú módulos
+------------
+
 El menú módulos permite navegar en cuatro módulos: 
 * el módulo inversionistas, 
 * en el módulo inversiones, 
@@ -158,8 +202,12 @@ El menú módulos permite navegar en cuatro módulos:
 
 
 
+.. _ref_010:
 
 Módulo Inversionistas
+---------------------
+
+
 En este módulo se registra el perfil del cliente. La pantalla principal de este módulo es un tablero de control de los datos del cliente. En esta pantalla se despliega: 
 1. el número de identificación del cliente,
 2. la clase del cliente que puede ser persona natural o persona jurídica, 
@@ -175,9 +223,12 @@ en este reporte se puede apreciar el monto total del cliente, el monto mínimo q
  
 
 
+.. _ref_011:
 
 
 Módulo Inversiones
+------------------
+
 En este módulo se despliegan las órdenes de los clientes. El tablero de información esta conformado por tres filas de información. La primera fila incluye el número de identificación del cliente, el número de la orden o de la inversión, incluye la opción para desplegar la matriz de riesgo de la inversión, incluye el módulo de gestión de calidad en donde se listan los procesos para el control de calidad de la orden, el nombre del cliente y la clase de inversionista. En la segunda fila se despliega el detalle de la orden de inversión que incluye el nombre del instrumento bursátil, el monto, la fecha de creación de la orden, la hora de creación de la orden, el nombre del usuario que creo la orden, la fecha de la ultima edición de la orden, la hora de la ultima edición de la orden y el nombre del usuario que editó la orden. Adicionalmente incluye la opción para eliminar la orden. En tablero incluye opciones de edición de la orden, despliegue de la matriz de riesgo de la orden y gestión de control de calidad de la orden.
 La pantalla siguiente muestra un ejemplo del formato de presentación de la matriz de riesgo de la orden:   la pantalla siguiente es un ejemplo del formato de presentación de edición de la orden:   la pantalla siguiente muestra el menú de opciones para acceder al módulo de gestión de calidad, en donde se despliegan los procesos para realizar el control de calidad de la orden:   en la figura se despliegan los procesos implementados para realizar el control de calidad. Y también esta incluido en la parte final de las opciones del menú el reporte de control de calidad. 
 
@@ -194,9 +245,10 @@ por motivos de espacio no se incluye el reporte completo. Sin embargo a manera d
 
 
 
+.. _ref_012:
 
 Módulo Registro de Labor Comercial
-  
+----------------------------------  
 
 El módulo de registro de labor comercial esta disponible desde la opción de menú módulos. El módulo ofrece las opciones para crear registros de labor comercial, obtener un reporte de la labor comercial, opciones de reportes consolidados y opciones de reportes detallados. Los reportes de labor comercial son desplegados de acuerdo a las opciones que se indiquen para la elaboración del reporte. Por ejemplo la figura siguiente es un ejemplo de las opciones disponibles para generar el reporte de labor comercial detallado por cliente:    el formulario para parametrizar el reporte es amigable y permite especificar un rango de fechas para la obtención de los registros de labor comercial que cumplen la condición del rango de fechas. La figura siguiente muestra a manera de ilustración el calendario con el mes de enero del año 2022 en el cual el usuario puede navegar por el calendario y seleccionar la fecha inicial deseada:  de igual manera la opción seleccionar el comercial incluye dinámicamente en el menú de opciones los nombres de los usuarios con el rol de comercial. Por ejemplo en la figura siguiente se muestra a manera de ilustración como se despliegan las opciones al usuario para que seleccione el nombre del comercial o si desea todos los comerciales:   un ejemplo de cómo luce el reporte de labor comercial con la selección de un rango de fechas se muestra en la siguiente figura:    para crear un registro de labor comercial el sistema permite especificar el nombre del comercial a cargo del cliente y el nombre del supervisor del comercial.  Al tener el nombre del supervisor del comercial y el nombre del comercial asignado al cliente el sistema de reportes de labor comercial se convierte en una herramienta de gestión para realizar el seguimiento de la labor comercial al detalle.  Por ejemplo la figura siguiente muestra el reporte de labor comercial con los comerciales monicabelluci y leahflicking en donde monicabelluci tiene el rol de comercial supervisor y también realiza la labor comercial:   
 en el reporte se despliegan todos los nombres de los usuarios con rol de comercial junto al nombre del evento, fecha de creación del registro de labor comercial, hora de creación del registro de labor comercial, la bandera que indica si el cliente tiene interés en el producto, y el monto del capital proyectado por el cliente a invertir. La pantalla siguiente muestra un ejemplo del formato del reporte de labor comercial de usuario comercial monicabelluci:   desde el mismo formulario que despliega el reporte el usuario puede ingresar nuevos parámetros para la generación del reporte. Por ejemplo puede especificar un nuevo rango de fechas, ingresar un número de identificación y seleccionar todos o un solo nombre de usuario con el rol de comercial.
@@ -207,41 +259,52 @@ La figura siguiente muestra a manera de ilustración un ejemplo del total proyec
 
 
 
-________________
+.. _ref_013:
 
 
 Módulo Control de Calidad
-
+-------------------------
 
 La figura siguiente muestra la forma de acceder al módulo de control de calidad:   el módulo incluye dos opciones. El reporte detallado de control de calidad y el reporte consolidado de control de calidad. En las páginas anteriores en la sección correspondiente al módulo de inversiones se mostró algunas pantallas de ejemplo de los reportes de control de calidad detallado y consolidado.
 
 
-________________
 
+.. _ref_014:
 
 Módulo de la debida diligencia o DD
-
+-----------------------------------
 
 La pantalla siguiente muestra a manera de ilustración el menú de opciones de la debida diligencia:   en el módulo de la DD el usuario puede ingresar a los módulos de gestión de cónyuges declarados por el cliente, representante o representantes legales declarados por el cliente, detalle de ingresos declarados por el cliente, detalle de egresos declarados por el cliente, detalle de los recursos lícitos declarados por el cliente, detalle de los bienes muebles declarados por el cliente, detalle de los bienes inmuebles declarados por el cliente, detalle de las cuentas en instituciones financieras declaradas por el cliente, detalle de las cuentas en tarjetas de crédito declarados por el cliente, política conozca a su cliente o KYC (Know Your Client) en las siglas en el idioma inglés, detalle de dependencia de terceros declarados por el cliente y el reporte de la lista de verificación de la debida diligencia.
 
 
 
+.. _ref_015:
 
 Módulo varios
+-------------
+
 La figura siguiente muestra a manera de ilustración el menú de opciones del módulo varios:   las opciones disponibles en este módulo son el módulo de búsquedas, el módulo de reportes y el módulo de matriz de riesgo.
 
 
+.. _ref_016:
+
 Módulo de búsquedas
+-------------------
+
 El módulo de búsquedas tiene dos opciones.  La primera opción despliega la pagina web de OFAC y la segunda opción despliega la opción de búsquedas en la Fiscalía General del Estado del Ecuador. 
 
 
 OFAC
+++++
 La pantalla siguiente es un ejemplo del despliegue de la pagina web de OFAC, en donde el usuario puede realizar consultas:    la siguiente figura muestra la pantalla de búsquedas en las paginas de la fiscalía general del estado del Ecuador:   la siguiente figura muestra los resultados de la búsqueda utilizando el nombre Guillermo Lasso en las páginas de la fiscalía general del estado:    los resultados obtenidos son desplegados en tres columnas. El title, el link y snippet. Los resultados fueron obtenidos utilizando el motor de búsqueda de google que para los propósitos del sistema esta personalizado para buscar únicamente en las paginas web de la fiscalía general del estado del Ecuador (FGE). Sin embargo dependiendo de los requerimientos del usuario que adquiere el sistema el motor de búsqueda puede ser configurado para incluir otras fuentes de datos y de esta forma la búsqueda podrá ser realizada en un ámbito más amplio de datos. 
 
 
+.. _ref_017:
 
 
 Módulo de reportes
+------------------
+
 La figura siguiente muestra el módulo reportes que incluye reportes en las siguientes áreas: Política conozca a su cliente, debida diligencia, personas naturales y jurídicas, UAFE y cartera. A manera de ilustración la siguiente figura muestra el formato de la página de reportes:
 
 
@@ -257,18 +320,11 @@ la figura siguiente muestra a manera de ilustración la pantalla para la obtenci
 
 
 
-
-________________
+.. _ref_018:
 
 
 Módulo de matriz de riesgo
+--------------------------
+
 En este módulo se puede obtener la matriz de riesgo de una inversión. La figura siguiente ilustra el formato del reporte de la matriz de riesgo:   
-
-
-
-
-
-
-
-
 
