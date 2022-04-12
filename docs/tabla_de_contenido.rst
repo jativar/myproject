@@ -96,31 +96,12 @@ Política de privacidad y condiciones de uso del sistema
 -------------------------------------------------------
 
 
-Bullet lists:
-- This is item 1
-- This is item 2
-
-- Bullets are "-", "*" or "+".
-  Continuing text must be aligned
-  after the bullet and whitespace.
-
-Note that a blank line is required
-before the first item and after the
-last, but is optional between items
-
-
-
 
 El sistema cuenta con la política de privacidad que comprende:
 
-- El alcance. 
-- Información de los datos que se recolectan. 
-- Información de los datos que no se recolectan. 
-
-
-
-
-
+* El alcance. 
+* Información de los datos que se recolectan. 
+* Información de los datos que no se recolectan.
 * La finalidad de la política de privacidad, 
 * Explicación del proceso para ejercer derecho de acceso y rectificación de datos, 
 * Descripción del proceso a seguir cuando existan cambios en la política de privacidad, 
