@@ -94,7 +94,20 @@ Utiliza el sistema de gestión de base de datos empresarial MySQL que esta entre
 
 Política de privacidad y condiciones de uso del sistema
 -------------------------------------------------------
-El sistema cuenta con la política de privacidad, alcance, información de los datos que se recolectan, información de los datos que no se recolectan, la finalidad de la política de privacidad, explicación del proceso para ejercer derecho de acceso y rectificación, descripción del proceso a seguir cuando existan cambios en la política de privacidad, descripción del uso de cookies, descripción de las medidas para precautelar la seguridad de los datos personales, descripción detallada de la base legal Ecuatoriana que sustenta el tratamiento de los datos, descripción de los términos y condiciones de uso del sistema, responsabilidad del sistema, las obligaciones del usuario del sistema, y datos de contacto del proveedor del sistema.
+El sistema cuenta con la política de privacidad que comprende:
+* El alcance, 
+* Información de los datos que se recolectan, 
+* Información de los datos que no se recolectan, 
+* La finalidad de la política de privacidad, 
+* Explicación del proceso para ejercer derecho de acceso y rectificación de datos, 
+* Descripción del proceso a seguir cuando existan cambios en la política de privacidad, 
+* Descripción del uso de cookies, 
+* Descripción de las medidas para precautelar la seguridad de los datos personales, 
+* Descripción detallada de la base legal Ecuatoriana que sustenta el tratamiento de los datos, 
+* Descripción de los términos y condiciones de uso del sistema, 
+* Responsabilidad del sistema, 
+* Las obligaciones del usuario del sistema, y 
+* Datos de contacto del proveedor del sistema.
 
 
 
