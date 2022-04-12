@@ -131,7 +131,7 @@ Para ingresar al sistema el usuario debe acceder a la página de bienvenida del 
 Ingreso al sistema
 ------------------
 
-El sistema ofrece un interfaz de usuario amigable para registrarse en el sistema y también para ingresar al sistema. Las pantallas de ingreso al sistema y de registro en el sistema incluyen reCAPTCHA para reforzar la seguridad. Una vez que el usuario ingresa al sistema el sistema desplegará un mensaje que indica que la credencial del usuario ha sido autorizada, y en ese momento es cuando el usuario esta autorizado para ingresar al tablero o dashboard. La pantalla siguiente es un ejemplo del formato de la pantalla de ingreso al sistema:   
+El sistema ofrece un interfaz de usuario amigable para registrarse en el sistema y también para ingresar al sistema. Las pantallas de ingreso al sistema y de registro en el sistema incluyen **reCAPTCHA** para reforzar la seguridad. Una vez que el usuario ingresa al sistema el sistema desplegará un mensaje que indica que la credencial del usuario ha sido autorizada, y en ese momento es cuando el usuario esta autorizado para ingresar al tablero o dashboard. La pantalla siguiente es un ejemplo del formato de la pantalla de ingreso al sistema:   
 
 
 .. _ref_006:
@@ -143,7 +143,7 @@ Interfaz de barras de navegación del sistema
 El sistema cuenta con tres barras de navegación horizontales disponibles al usuario. La barra del nivel superior es la barra del módulo que está activo. La barra de navegación del medio es la barra del menú principal en donde el usuario puede seleccionar los módulos a los que desea ir. Y por último la tercera barra de navegación es la barra que se utiliza para el control de la sesión del usuario.  Esta última barra despliega la información de usuario en el siguiente orden: el nombre del usuario que tiene activa la sesión, el estado de autenticación del usuario, el estado de autorización del usuario, el nombre del rol del usuario, la fecha y hora registrada en el sistema correspondiente a la ultima sesión activa del usuario, y los privilegios de acceso a datos de la cuenta de usuario para crear, consultar, editar y eliminar. Los privilegios del usuario se desplegarán en fondo de color gris cuando el privilegio no está activo y en fondo de color azul cuando el privilegio está activo.
 
 
-La captura de pantalla siguiente a manera de ilustración muestra las tres barras de navegación horizontal. El mensaje con fondo de color verde “El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20” es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
+La captura de pantalla siguiente a manera de ilustración muestra las tres barras de navegación horizontal. El mensaje con fondo de color verde *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
 
 
 .. _ref_007:
