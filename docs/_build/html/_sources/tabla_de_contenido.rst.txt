@@ -94,10 +94,10 @@ Utiliza el sistema de gestión de base de datos empresarial MySQL que esta entre
 
 Política de privacidad y condiciones de uso del sistema
 -------------------------------------------------------
-El sistema cuenta con la política de privacidad que comprende:
-* El alcance, 
-* Información de los datos que se recolectan, 
-* Información de los datos que no se recolectan, 
+El sistema cuenta con la política de privacidad que comprende
+- El alcance. 
+- Información de los datos que se recolectan. 
+- Información de los datos que no se recolectan. 
 * La finalidad de la política de privacidad, 
 * Explicación del proceso para ejercer derecho de acceso y rectificación de datos, 
 * Descripción del proceso a seguir cuando existan cambios en la política de privacidad, 
