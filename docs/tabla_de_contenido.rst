@@ -130,7 +130,7 @@ Adicionalmente en el momento que el administrador del sistema realiza el proceso
 
 Cuando el usuario ingrese al sistema, el sistema validará la cuenta del usuario y registrará la sesión del usuario en una cookie que permite al sistema mantener control de la sesión del usuario. 
 
-Todas las cuentas de los usuarios responden al modelo de **RBAC** que son las siglas de Rol Base Access Control y a **CRUD** que son las siglas de Create Create, Read, Update y Delete.
+Todas las cuentas de los usuarios responden al modelo de **RBAC** que son las siglas de Rol Base Access Control y a **CRUD** que son las siglas de Create, Read, Update y Delete.
 
 El sistema de gestión de roles y privilegios de usuarios permite mantener un nivel de acceso al sistema que valida el rol del usuario para acceder a las páginas del sistema y el nivel de privilegio del usuario para acceder a los datos.  
 
@@ -151,13 +151,18 @@ en esta pantalla el usuario tiene la opción de ingresar al sistema, de registra
 
 
 
-.. _ref_005:
 
+.. _ref_005:
 
 Ingreso al sistema
 ------------------
 
 El sistema ofrece un interfaz de usuario amigable para registrarse en el sistema y también para ingresar al sistema. Las pantallas de ingreso al sistema y de registro en el sistema incluyen **reCAPTCHA** para reforzar la seguridad. Una vez que el usuario ingresa al sistema el sistema desplegará un mensaje que indica que la credencial del usuario ha sido autorizada, y en ese momento es cuando el usuario esta autorizado para ingresar al tablero o dashboard. La pantalla siguiente es un ejemplo del formato de la pantalla de ingreso al sistema:   
+
+.. image:: /images/login.png 
+
+
+
 
 
 .. _ref_006:
