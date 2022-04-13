@@ -22,7 +22,6 @@ Tabla de contenido
 
 
 
-   
 
 .. _ref_001:
    
@@ -31,11 +30,12 @@ Que es el sistema conozca a su cliente?
 
 El sistema conozca a su cliente es un sistema desarrollado para apoyar las tareas de la debida diligencia en lo que respecta a la prevención del lavado de activos y financiamiento del terrorismo. 
 
-
 El sistema incluye módulos de soporte para el registro de datos de la manera más eficiente y diligente posible para conocer adecuadamente a los clientes, reforzando el conocimiento de aquellos que por su actividad o condición son sensibles al lavado de activos o financiamiento del terrorismo.
 
-
 El registro digital de los procedimientos de debida diligencia implementados en el sistema permitirá anticipar con relativa certeza los tipos de transacciones y operaciones del cliente y determinar aquellas que son inusuales. 
+
+
+
 
 
 .. _ref_002:
@@ -46,83 +46,109 @@ Seguridades en el sistema
 Uso del protocolo HTTPS
 +++++++++++++++++++++++
 
-HTTPS (Protocolo seguro de transferencia de hipertexto) es una versión cifrada del protocolo HTTP. Utiliza SSL o TLS para cifrar todas las comunicaciones entre un cliente y un servidor. Esta conexión segura permite a los clientes estar seguros de que están conectados con el servidor deseado e intercambiar datos confidenciales.
+**HTTPS** (Protocolo seguro de transferencia de hipertexto) es una versión cifrada del protocolo HTTP. Utiliza SSL o TLS para cifrar todas las comunicaciones entre un cliente y un servidor. Esta conexión segura permite a los clientes estar seguros de que están conectados con el servidor deseado e intercambiar datos confidenciales.
 
 .. admonition:: Para mayor información sobre el protocolo HTTPS
 
    Consulte el enlace siguiente: https://developer.mozilla.org/en-US/docs/Web/Security
 
-
 Claves de usuario almacenadas con técnicas de hash seguras
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Las claves de los usuarios se almacenan con técnicas de hash seguras con un algoritmo sólido como SHA-256 y usa un hash iterativo con una sal aleatoria para hacer que el hash sea fuerte.
-
+Las claves de los usuarios se almacenan con técnicas de hash seguras con un algoritmo sólido como **SHA-256** y usa un hash iterativo con una sal aleatoria para hacer que el hash sea fuerte.
 
 Uso de reCAPTCHA
 ++++++++++++++++
 
-Google reCAPTCHA es un sistema diseñado para diferenciar entre humanos y ordenadores, que se utiliza para que los bots no puedan completar formularios de forma malintencionada en nombre de un ser humano.
-
+Google **reCAPTCHA** es un sistema diseñado para diferenciar entre humanos y ordenadores, que se utiliza para que los bots no puedan completar formularios de forma malintencionada en nombre de un ser humano.
 
 Ataques de fuerza bruta
 +++++++++++++++++++++++
 
 Previene ataques de búsqueda de fuerza bruta y utiliza una sal contra los ataques arcoíris. Por ejemplo, el reciclaje de credenciales es una forma de ataques de fuerza bruta en los que se utilizan nombres de usuario y contraseñas de ataques anteriores. Otro ejemplo de ataque de fuerza bruta es un ataque de diccionario en el que se prueban todas las palabras de un diccionario para encontrar una contraseña. Un ataque arcoíris o mejor conocido como una Tabla Arcoíris o en ingles como Rainbow Table suele utilizarse para romper contraseñas que se han cifrado en un hash.
 
-
 Prevención de vulnerabilidades CSRF
 +++++++++++++++++++++++++++++++++++
 
-El sistema esta equipado con un token anti-CSRF para la prevención de vulnerabilidades CSRF. La falsificación de solicitud entre sitios, a menudo abreviada como CSRF, es un posible ataque que puede ocurrir cuando un sitio web, blog, mensaje de correo electrónico, mensaje instantáneo o aplicación web maliciosa hace que el navegador web de un usuario realice una acción no deseada en un sitio confiable en el que el usuario está actualmente autenticado.
-
+El sistema esta equipado con un token anti-CSRF para la prevención de vulnerabilidades **CSRF**. La falsificación de solicitud entre sitios, a menudo abreviada como **CSRF**, es un posible ataque que puede ocurrir cuando un sitio web, blog, mensaje de correo electrónico, mensaje instantáneo o aplicación web maliciosa hace que el navegador web de un usuario realice una acción no deseada en un sitio confiable en el que el usuario está actualmente autenticado.
 
 Programado enteramente utilizando tecnología Cloud Computing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-El sistema esta programado enteramente en el modelo de computación en la nube o conocido en el inglés como cloud computing. Que es una tecnología que permite el acceso remoto a software, almacenamiento de archivos y procesamiento de datos por medio del Internet. Siendo así una alternativa a la ejecución en una computadora personal o servidor local. En este modelo, no hay necesidad de instalar aplicaciones localmente en computadoras y ofrece a las empresas la capacidad de un pool de recursos de computación con buen mantenimiento, seguro y de fácil acceso.
-
+El sistema esta programado enteramente en el modelo de computación en la nube o conocido en el inglés como **cloud computing**. Que es una tecnología que permite el acceso remoto a software, almacenamiento de archivos y procesamiento de datos por medio del Internet. Siendo así una alternativa a la ejecución en una computadora personal o servidor local. En este modelo, no hay necesidad de instalar aplicaciones localmente en computadoras y ofrece a las empresas la capacidad de un pool de recursos de computación con buen mantenimiento, seguro y de fácil acceso.
 
 Sistema de gestión de base de datos empresarial
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-Utiliza el sistema de gestión de base de datos empresarial MySQL que esta entre los sistemas de gestión de bases de datos mas populares en todo el mundo.
+Utiliza el sistema de gestión de base de datos empresarial **MySQL** que esta entre los sistemas de gestión de bases de datos mas populares en todo el mundo.
+
+
+
 
 
 .. _ref_003:
 
-
 Política de privacidad y condiciones de uso del sistema
 -------------------------------------------------------
-
-
 
 El sistema cuenta con la política de privacidad que comprende:
 
 * El alcance. 
 * Información de los datos que se recolectan. 
 * Información de los datos que no se recolectan.
-* La finalidad de la política de privacidad, 
-* Explicación del proceso para ejercer derecho de acceso y rectificación de datos, 
-* Descripción del proceso a seguir cuando existan cambios en la política de privacidad, 
-* Descripción del uso de cookies, 
-* Descripción de las medidas para precautelar la seguridad de los datos personales, 
-* Descripción detallada de la base legal Ecuatoriana que sustenta el tratamiento de los datos, 
-* Descripción de los términos y condiciones de uso del sistema, 
-* Responsabilidad del sistema, 
-* Las obligaciones del usuario del sistema, y 
+* La finalidad de la política de privacidad. 
+* Explicación del proceso para ejercer derecho de acceso y rectificación de datos. 
+* Descripción del proceso a seguir cuando existan cambios en la política de privacidad. 
+* Descripción del uso de cookies. 
+* Descripción de las medidas para precautelar la seguridad de los datos personales. 
+* Descripción detallada de la base legal Ecuatoriana que sustenta el tratamiento de los datos. 
+* Descripción de los términos y condiciones de uso del sistema. 
+* Responsabilidad del sistema. 
+* Las obligaciones del usuario del sistema. 
 * Datos de contacto del proveedor del sistema.
+
 
 
 
 
 .. _ref_004:
 
-
 Pantalla de bienvenida al sistema
 ---------------------------------
 
-Para ingresar al sistema el usuario debe acceder a la página de bienvenida del sistema. Desde esta pantalla el usuario podrá iniciar una sesión en el sistema.  Esta sesión le permitirá registrarse en el sistema. En el registro del sistema el usuario ingresará información como el nombre usuario, dirección de correo electrónico y la clave de acceso. Una vez que el usuario este registrado en el sistema debe esperar que su cuenta de usuario sea autentificada y autorizada por el usuario administrador del sistema. Una vez que el administrador del sistema realice la verificación de los datos personales del usuario procederá a actualizar en el sistema los indicadores de autenticación de la cuenta y de autorización de la cuenta. Únicamente en ese momento el usuario registrado podrá ingresar al sistema.  Adicionalmente en el momento que el administrador del sistema realiza el proceso de autenticación del usuario y de autorización del usuario también asigna los privilegios de acceso a los datos.  Estos privilegios son: crear, consultar, editar y eliminar. Cuando el usuario ingrese al sistema, el sistema validará la cuenta del usuario y registrará la sesión del usuario en una cookie que permite al sistema mantener control de la sesión del usuario. Todas las cuentas de los usuarios responden al modelo de **RBAC** que son las siglas de Rol Base Access Control y a **CRUD** que son las siglas de Create Create, Read, Update y Delete.  El sistema de gestión de roles y privilegios de usuarios permite mantener un nivel de acceso al sistema que valida el rol del usuario para acceder a las páginas del sistema y el nivel de privilegio del usuario para acceder a los datos.  A manera de ilustración si un usuario tiene el rol de *‘comercial’* este usuario no tendrá acceso a las paginas de configuración del sistema ya que estas páginas únicamente pueden ser accedidas por usuarios con el rol de *‘administrador’*. Respecto al acceso a los datos, si el usuario tiene privilegios de acceso de solo lectura, el usuario únicamente podrá visualizar la información en el sistema y no podrá crear, eliminar o cambiar los datos. La siguiente pantalla muestra el formato de ingreso al sistema.   La pantalla despliega en la parte izquierda superior el logo de un agente y a un lado el enlace iniciar en color verde. Al dar un click en iniciar, la siguiente pantalla es desplegada:   en esta pantalla el usuario tiene la opción de ingresar al sistema, de registrarse en el sistema o de regresar a la página de bienvenida al sistema. 
+Para ingresar al sistema el usuario debe acceder a la página de bienvenida del sistema. Desde esta pantalla el usuario podrá iniciar una sesión en el sistema.  Esta sesión le permitirá registrarse en el sistema. 
+
+En el registro del sistema el usuario ingresará información como el nombre usuario, dirección de correo electrónico y la clave de acceso. 
+
+Una vez que el usuario este registrado en el sistema debe esperar que su cuenta de usuario sea autentificada y autorizada por el usuario administrador del sistema. 
+
+Una vez que el administrador del sistema realice la verificación de los datos personales del usuario procederá a actualizar en el sistema los indicadores de autenticación de la cuenta y de autorización de la cuenta. 
+
+Únicamente en ese momento el usuario registrado podrá ingresar al sistema.  
+
+Adicionalmente en el momento que el administrador del sistema realiza el proceso de autenticación del usuario y de autorización del usuario también asigna los privilegios de acceso a los datos.  Estos privilegios son: crear, consultar, editar y eliminar. 
+
+Cuando el usuario ingrese al sistema, el sistema validará la cuenta del usuario y registrará la sesión del usuario en una cookie que permite al sistema mantener control de la sesión del usuario. 
+
+Todas las cuentas de los usuarios responden al modelo de **RBAC** que son las siglas de Rol Base Access Control y a **CRUD** que son las siglas de Create Create, Read, Update y Delete.
+
+El sistema de gestión de roles y privilegios de usuarios permite mantener un nivel de acceso al sistema que valida el rol del usuario para acceder a las páginas del sistema y el nivel de privilegio del usuario para acceder a los datos.  
+
+A manera de ilustración si un usuario tiene el rol de *‘comercial’* este usuario no tendrá acceso a las paginas de configuración del sistema ya que estas páginas únicamente pueden ser accedidas por usuarios con el rol de *‘administrador’*. 
+
+Respecto al acceso a los datos, si el usuario tiene privilegios de acceso de solo lectura, el usuario únicamente podrá visualizar la información en el sistema y no podrá crear, eliminar o cambiar los datos. 
+
+La siguiente pantalla muestra el formato de ingreso al sistema.   
+
+.. image:: /images/ingreso_al_sistema.png 
+
+La pantalla despliega en la parte izquierda superior el logo de un agente y a un lado el enlace iniciar en color verde. Al dar un click en iniciar, la siguiente pantalla es desplegada:
+
+.. image:: /images/index.png 
+
+en esta pantalla el usuario tiene la opción de ingresar al sistema, de registrarse en el sistema o de regresar a la página de bienvenida al sistema. 
+
+
 
 
 .. _ref_005:
