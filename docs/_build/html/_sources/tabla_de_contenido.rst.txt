@@ -177,9 +177,9 @@ La captura de pantalla siguiente a manera de ilustración muestra las tres barra
 .. image:: /images/barras_de_navegacion.png 
 
 
-.. admonition:: El mensaje con fondo de color verde *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”*
+.. admonition:: El mensaje con fondo de color verde 
 
-   El mensaje con fondo de color verde *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
+   *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
 
 
 
