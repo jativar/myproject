@@ -179,7 +179,7 @@ La captura de pantalla siguiente a manera de ilustración muestra las tres barra
 
 .. admonition:: El mensaje con fondo de color verde 
 
-   *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
+   *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario.
 
 
 
@@ -208,8 +208,8 @@ Licencia de uso
 
 En esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.
 
-Usuarios:
-+++++++++
+Usuarios
+++++++++
 
 El registro de usuarios en el sistema esta implementado con mecanismos de seguridad para garantizar la confidencialidad de la información. Para controlar el nivel de acceso que tiene un usuario y los privilegios de acceso a los datos el sistema se dispone de dos mecanismos.  
 * El **RBAC** (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el 
@@ -240,17 +240,17 @@ la siguiente pantalla es un ejemplo del reporte de privilegios:
 .. image:: /images/reporte_de_usuarios_005.png
 
 Lenguaje 
-+++++++++
+++++++++
 
 El sistema incluye las opciones para seleccionar el lenguaje de preferencia para navegar en el sistema. Al momento el sistema dispone de tres diccionarios que corresponden a los idiomas español, ingles y tailandés. El lenguaje de preferencia es el español por defecto. La configuración de lenguajes como el inglés o thai pueden ser configurados en el momento de la instalación utilizando los diccionarios correspondientes.
 
 Provincias 
-+++++++++++
+++++++++++
 
 El sistema permite realizar la gestión de las provincias en el Ecuador y de las ciudades. En esta opción el usuario establece los niveles de riesgo para las provincias y para las ciudades.
 
 Países 
-+++++++
+++++++
 
 El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
 
@@ -263,7 +263,7 @@ El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
 Menú módulos
 ------------
 
-El menú módulos permite navegar en cuatro módulos: 
+El menú módulos permite navegar en cuatro módulos:
 * el módulo inversionistas, 
 * en el módulo inversiones, 
 * en el módulo de registro de labor comercial y 
@@ -278,23 +278,77 @@ El menú módulos permite navegar en cuatro módulos:
 Módulo Inversionistas
 ---------------------
 
-En este módulo se registra el perfil del cliente. La pantalla principal de este módulo es un tablero de control de los datos del cliente. En esta pantalla se despliega: 
+En este módulo se registra el perfil del cliente. La pantalla principal de este módulo es un tablero de control de los datos del cliente. En esta pantalla se despliega:
+
 1. el número de identificación del cliente,
+
 2. la clase del cliente que puede ser persona natural o persona jurídica, 
+
 3. el tipo de cliente que puede ser un cliente de bajo riesgo, un cliente de riesgo moderado o un cliente de riesgo alto, 
+
 4. se despliega el estado de la debida diligencia (DD) del cliente,
+
 5. se despliega la fotografía del cliente,
-6. se despliega el perfil del cliente. Específicamente se despliega la ficha del cliente con datos que permiten realizar el seguimiento del cliente. Por ejemplo: se mantiene un ficha del cliente con los datos personales del cliente, dirección de trabajo del cliente y dirección de domicilio del cliente, información de contacto del cliente que incluye números de teléfono del cliente y direcciones de correo electrónico,  se despliega el log de creación y de edición de los datos del cliente que incluye la fecha de creación del cliente, la ultima fecha de edición de los datos del cliente y el nombre del usuario responsable de la creación y edición de los datos del cliente, se despliega un log que registra la fecha y hora y el nombre del usuario realizó la debida diligencia,  el estado de verificación de la debida diligencia, observaciones de archivo de la debida diligencia y hechos relevantes de la debida diligencia. La ficha del cliente es relevante en vista que mantiene en un solo lugar la información personal del cliente, muestra en forma tabulada los domicilios particulares y laborales declarados por el cliente, muestra de forma tabulada los números de teléfono y correo electrónico del domicilio y del trabajo, muestra los log de seguimiento de creación y edición de los datos del cliente junto con el responsable de la creación y edición del perfil del cliente; y finalmente muestra el log de la debida diligencia en donde se despliegan las tareas ejecutadas durante la debida diligencia y el resultado en cada una de las tareas como son la verificación de los datos del cliente, el estado de verificación, las observaciones de archivo y los hechos relevantes de la debida diligencia. Dentro los varios reportes que el sistema dispone a manera de ilustración en la figura siguiente se muestra el formato de presentación de los datos del perfil de un cliente:   
-7. El sistema incluye un módulo de análisis de datos exploratorio mejor conocido como EDA (Exploratory Data Analysis) lo que permite reforzar los procedimientos de control y detección de cambios en el perfil del cliente respecto a la línea de tiempo. Más específicamente el sistema permite detectar la frecuencia con la que el perfil del cliente ha cambiado en base a las operaciones que ha realizado el cliente, el motor de análisis inteligente de datos permite la detección de cambios en el perfil del cliente tocando al detalle cada atributo asignado en el perfil del cliente. Por ejemplo a manera de ilustración si el atributo es la dirección de domicilio, el sistema permite visualizar cuantas veces el cliente ha cambiado su dirección de domicilio en base al análisis inteligente de las operaciones que ha realizado el cliente mejor conocido como el índice de variación de los datos. La figura siguiente muestra un extracto del reporte de análisis exploratorio de datos. En donde se puede apreciar: el índice de variación de los datos y el nombre del metadato. Si se observa la figura, por ejemplo el número cinco (5) bajo la columna índice de variación de los datos se interpreta como “la frecuencia con la que el dato a variado” y muestra el detalle de la variación de los datos. Ademas el reporte EDA despliega la tabulación de los datos no duplicados.   
-8. El módulo incluye también la opción para obtener reportes consolidados y detallados de la cartera del cliente. La figura siguiente muestra el ejemplo del reporte de la cartera de un cliente consolidado:   
-en este reporte se puede apreciar el monto total del cliente, el monto mínimo que el cliente invirtió y el monto máximo que el cliente invirtió.  Cabe señalar que este reporte ha sido obtenido utilizando la tecnología de ciencia de datos, que permite consolidar la información para un análisis detallado. La siguiente figura muestra el ejemplo del mismo reporte pero con el detalle de as inversiones u operaciones:   en el reporte se puede observar el detalle de los montos, el monto total de la inversiones u operaciones, la inversión u operación con el monto máximo de la cartera así como también la inversión u operación con el monto mínimo.
-9. Dentro de las varias opciones que se despliegan en el módulo de inversiones, está la opción de registro de labor comercial. Esta opción despliega el detalle de la labor comercial para obtener clientes. Este módulo permite llevar al detalle el registro de la labor comercial. Permitiendo obtener reportes que incluyen el detalle de la labor comercial y el capital proyectado que ingresará a la casa de valores.  Este registro de labor comercial es gestionado y controlado por el responsable del área comercial. Existen reportes detallados, y consolidados disponibles para obtener al detalle la labor comercial.  Por ejemplo la siguiente pantalla muestra las opciones para obtener el registro de labor comercial detallado por cliente:   la interfaz del usuario con el sistema es amigable y  le permite al usuario seleccionar el rango de las fechas para la selección de la labor comercial dentro de un intervalo de fechas incluyendo también la selección en el reporte  por el nombre de un comercial o de todos los comerciales.  Esta característica de la interfaz del reporte permite obtener reportes por un solo comercial o por todos los comerciales ayudando a distribuir la carga de trabajo y tener un control sobre la labor comercial de los comerciales al detalle. La figura siguiente es un ejemplo de la interfaz del usuario para seleccionar una fecha inicial:   y la siguiente pantalla es un ejemplo del reporte de labor comercial:   existen varias opciones de reportes. Por ejemplo si se desea obtener el reporte de un solo comercial, el sistema de reportes permite seleccionar el nombre del comercial y obtener el reporte de la labor comercial del comercial seleccionado, la figura siguiente es un ejemplo:   en donde se observa que al seleccionar el comercial se despliegan las opciones: todos, y los nombres de los dos comerciales registrados en el sistema.
-10. Dentro de las funcionalidades incluidas en el módulo de inversionistas, están las matrices de riesgo. El sistema aplica controles de gestión de riesgos automatizados que utilizan los algoritmos empleados para la obtención de matrices de riesgo.  La implementación automatizada para calcular los niveles de riesgo sigue las recomendaciones del estándar ISO para la gestión de riesgos.  Por cada riesgo el sistema determina el nivel del riesgo que puede ser BAJO, MEDIO o ALTO y posteriormente realiza el computo de los riesgos inherentes, riesgos de control y riesgos residuales utilizando las probabilidades e impactos asignados a los riesgos.  La gestión de riesgos en el sistema incluye la opción para generar matrices de riesgo tomado en cuenta los siguientes riesgos: riesgo del inversionista, riesgo del país, riesgo de la provincia, riesgo de la ciudad. Para el calculo del riesgo de la ciudad y del riesgo de la provincia el sistema utiliza un mecanismo de ponderación de riesgos, más específicamente para el cálculo del riesgo de la ciudad y del riesgo de la provincia el riesgo es calculado con los riesgos siguientes: riesgo de frontera, riesgo de desastre natural, riesgo de presencia de contrabando, riesgo de presencia de terrorismo, riesgo de presencia de carteles, riesgo de presencia de narcotráfico, riesgo de presencia de violencia y riesgo de lavado de dinero. La figura siguiente es un ejemplo del despliegue de los riesgos inherente, riesgos de control y riesgos residuales correspondientes a los factores de riesgo inversionista, riesgo país de residencia, riesgo de provincia y riesgo de ciudad:   la siguiente figura muestra un ejemplo del despliegue de la matriz de riesgo correspondiente a una provincia:   y la siguiente figura muestra la matriz de riesgo correspondiente a la ciudad:   
+
+6. se despliega el perfil del cliente. Específicamente se despliega la ficha del cliente con datos que permiten realizar el seguimiento del cliente. Por ejemplo: se mantiene un ficha del cliente con los datos personales del cliente, dirección de trabajo del cliente y dirección de domicilio del cliente, información de contacto del cliente que incluye números de teléfono del cliente y direcciones de correo electrónico,  se despliega el log de creación y de edición de los datos del cliente que incluye la fecha de creación del cliente, la ultima fecha de edición de los datos del cliente y el nombre del usuario responsable de la creación y edición de los datos del cliente, se despliega un log que registra la fecha y hora y el nombre del usuario realizó la debida diligencia,  el estado de verificación de la debida diligencia, observaciones de archivo de la debida diligencia y hechos relevantes de la debida diligencia. La ficha del cliente es relevante en vista que mantiene en un solo lugar la información personal del cliente, muestra en forma tabulada los domicilios particulares y laborales declarados por el cliente, muestra de forma tabulada los números de teléfono y correo electrónico del domicilio y del trabajo, muestra los log de seguimiento de creación y edición de los datos del cliente junto con el responsable de la creación y edición del perfil del cliente; y finalmente muestra el log de la debida diligencia en donde se despliegan las tareas ejecutadas durante la debida diligencia y el resultado en cada una de las tareas como son la verificación de los datos del cliente, el estado de verificación, las observaciones de archivo y los hechos relevantes de la debida diligencia. Dentro los varios reportes que el sistema dispone a manera de ilustración en la figura siguiente se muestra el formato de presentación de los datos del perfil de un cliente:
+
+.. image:: /images/perfil_del_inversionista.png 
+
+7. El sistema incluye un módulo de análisis de datos exploratorio mejor conocido como **EDA** (Exploratory Data Analysis) lo que permite reforzar los procedimientos de control y detección de cambios en el perfil del cliente respecto a la línea de tiempo. Más específicamente el sistema permite detectar la frecuencia con la que el perfil del cliente ha cambiado en base a las operaciones que ha realizado el cliente, el motor de análisis inteligente de datos permite la detección de cambios en el perfil del cliente tocando al detalle cada atributo asignado en el perfil del cliente. Por ejemplo a manera de ilustración si el atributo es la dirección de domicilio, el sistema permite visualizar cuantas veces el cliente ha cambiado su dirección de domicilio en base al análisis inteligente de las operaciones que ha realizado el cliente mejor conocido como el índice de variación de los datos. La figura siguiente muestra un extracto del reporte de análisis exploratorio de datos. En donde se puede apreciar: el índice de variación de los datos y el nombre del metadato. Si se observa la figura, por ejemplo el número cinco (5) bajo la columna índice de variación de los datos se interpreta como “la frecuencia con la que el dato a variado” y muestra el detalle de la variación de los datos. Ademas el reporte EDA despliega la tabulación de los datos no duplicados.
+
+.. image:: /images/EDA.png 
+
+8. El módulo incluye también la opción para obtener reportes consolidados y detallados de la cartera del cliente. La figura siguiente muestra el ejemplo del reporte de la cartera de un cliente consolidado:
+
+.. image:: /images/reporte_consolidado_cartera_cliente.png 
+
+en este reporte se puede apreciar el monto total del cliente, el monto mínimo que el cliente invirtió y el monto máximo que el cliente invirtió.  Cabe señalar que este reporte ha sido obtenido utilizando la tecnología de ciencia de datos, que permite consolidar la información para un análisis detallado. 
+
+La siguiente figura muestra el ejemplo del mismo reporte pero con el detalle de las inversiones u operaciones:
+
+.. image:: /images/reporte_detallado_cartera_cliente.png 
+
+en el reporte se puede observar el detalle de los montos, el monto total de la inversiones u operaciones, la inversión u operación con el monto máximo de la cartera así como también la inversión u operación con el monto mínimo.
+
+9. Dentro de las varias opciones que se despliegan en el módulo de inversiones, está la opción de registro de labor comercial. Esta opción despliega el detalle de la labor comercial para obtener clientes. Este módulo permite llevar al detalle el registro de la labor comercial. Permitiendo obtener reportes que incluyen el detalle de la labor comercial y el capital proyectado que ingresará a la casa de valores.  Este registro de labor comercial es gestionado y controlado por el responsable del área comercial. Existen reportes detallados, y consolidados disponibles para obtener al detalle la labor comercial.  Por ejemplo la siguiente pantalla muestra las opciones para obtener el registro de labor comercial detallado por cliente:   
+
+.. image:: /images/formulario_registro_de_labor_comercial.png 
+
+la interfaz del usuario con el sistema es amigable y  le permite al usuario seleccionar el rango de las fechas para la selección de la labor comercial dentro de un intervalo de fechas incluyendo también la selección en el reporte  por el nombre de un comercial o de todos los comerciales.  Esta característica de la interfaz del reporte permite obtener reportes por un solo comercial o por todos los comerciales ayudando a distribuir la carga de trabajo y tener un control sobre la labor comercial de los comerciales al detalle. 
+
+La figura siguiente es un ejemplo de la interfaz del usuario para seleccionar una fecha inicial:
+
+.. image:: /images/formulario_registro_de_labor_comercial_interfaz.png 
+
+y la siguiente pantalla es un ejemplo del reporte de labor comercial:
+
+.. image:: /images/reporte_de_labor_comercial_detallado.png 
+
+existen varias opciones de reportes. Por ejemplo si se desea obtener el reporte de un solo comercial, el sistema de reportes permite seleccionar el nombre del comercial y obtener el reporte de la labor comercial del comercial seleccionado, la figura siguiente es un ejemplo:   
+
+.. image:: /images/reporte_de_labor_comercial_detallado_de_un_comercial.png 
+
+en donde se observa que al seleccionar el comercial se despliegan las opciones: todos, y los nombres de los dos comerciales registrados en el sistema.
+
+10. Dentro de las funcionalidades incluidas en el módulo de inversionistas, están las matrices de riesgo. El sistema aplica controles de gestión de riesgos automatizados que utilizan los algoritmos empleados para la obtención de matrices de riesgo.  La implementación automatizada para calcular los niveles de riesgo sigue las recomendaciones del estándar ISO para la gestión de riesgos.  Por cada riesgo el sistema determina el nivel del riesgo que puede ser **BAJO**, **MEDIO** o **ALTO** y posteriormente realiza el computo de los riesgos inherentes, riesgos de control y riesgos residuales utilizando las probabilidades e impactos asignados a los riesgos.  La gestión de riesgos en el sistema incluye la opción para generar matrices de riesgo tomado en cuenta los siguientes riesgos: riesgo del inversionista, riesgo del país, riesgo de la provincia, riesgo de la ciudad. Para el calculo del riesgo de la ciudad y del riesgo de la provincia el sistema utiliza un mecanismo de ponderación de riesgos, más específicamente para el cálculo del riesgo de la ciudad y del riesgo de la provincia el riesgo es calculado con los riesgos siguientes: riesgo de frontera, riesgo de desastre natural, riesgo de presencia de contrabando, riesgo de presencia de terrorismo, riesgo de presencia de carteles, riesgo de presencia de narcotráfico, riesgo de presencia de violencia y riesgo de lavado de dinero. 
+
+La figura siguiente es un ejemplo del despliegue de los riesgos inherente, riesgos de control y riesgos residuales correspondientes a los factores de riesgo inversionista, riesgo país de residencia, riesgo de provincia y riesgo de ciudad:
+
+.. image:: /images/riesgos_del_inversionista.png 
+
+la siguiente figura muestra un ejemplo del despliegue de la matriz de riesgo correspondiente a una provincia:
+
+.. image:: /images/riesgos_provincia.png 
+
+y la siguiente figura muestra la matriz de riesgo correspondiente a la ciudad:   
  
+.. image:: /images/riesgos_ciudad.png 
+
+
+
 
 
 .. _ref_011:
-
 
 Módulo Inversiones
 ------------------
