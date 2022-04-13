@@ -68,11 +68,11 @@
 <li class="toctree-l2"><a class="reference internal" href="#interfaz-de-barras-de-navegacion-del-sistema">Interfaz de barras de navegación del sistema</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#menu-principal-del-sistema">Menú principal del sistema</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#modulo-tablero">Módulo tablero</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#licencia-de-uso">Licencia de uso:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#licencia-de-uso">Licencia de uso</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#usuarios">Usuarios:</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#lenguaje">Lenguaje:</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#provincias">Provincias:</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#paises">Países:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lenguaje">Lenguaje</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#provincias">Provincias</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#paises">Países</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#menu-modulos">Menú módulos</a></li>
@@ -226,36 +226,47 @@
 <span id="ref-006"></span><h2>Interfaz de barras de navegación del sistema<a class="headerlink" href="#interfaz-de-barras-de-navegacion-del-sistema" title="Permalink to this headline"></a></h2>
 <p>El sistema cuenta con tres barras de navegación horizontales disponibles al usuario. La barra del nivel superior es la barra del módulo que está activo. La barra de navegación del medio es la barra del menú principal en donde el usuario puede seleccionar los módulos a los que desea ir. Y por último la tercera barra de navegación es la barra que se utiliza para el control de la sesión del usuario.  Esta última barra despliega la información de usuario en el siguiente orden: el nombre del usuario que tiene activa la sesión, el estado de autenticación del usuario, el estado de autorización del usuario, el nombre del rol del usuario, la fecha y hora registrada en el sistema correspondiente a la ultima sesión activa del usuario, y los privilegios de acceso a datos de la cuenta de usuario para crear, consultar, editar y eliminar. Los privilegios del usuario se desplegarán en fondo de color gris cuando el privilegio no está activo y en fondo de color azul cuando el privilegio está activo.</p>
 <p>La captura de pantalla siguiente a manera de ilustración muestra las tres barras de navegación horizontal. El mensaje con fondo de color verde <em>“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”</em> es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:</p>
+<img alt="_images/barras_de_navegacion.png" src="_images/barras_de_navegacion.png" />
 </section>
 <section id="menu-principal-del-sistema">
 <span id="ref-007"></span><h2>Menú principal del sistema<a class="headerlink" href="#menu-principal-del-sistema" title="Permalink to this headline"></a></h2>
-<p>El menú principal del sistema tiene las opciones para salir del sistema, navegar en la barra de navegación del tablero o dashboard, selección de módulos del sistema, selección de los módulos de debida diligencia o DD, selección de opciones varios y selección en análisis exploratorio de datos o mejor conocido como EDA que son las siglas en lenguaje ingles para Exploratory Data Analysis.</p>
+<p>El menú principal del sistema tiene las opciones para salir del sistema, navegar en la barra de navegación del tablero o dashboard, selección de módulos del sistema, selección de los módulos de debida diligencia o DD, selección de opciones varios y selección en análisis exploratorio de datos o mejor conocido como <strong>EDA</strong> que son las siglas en lenguaje ingles para Exploratory Data Analysis.</p>
 </section>
 <section id="modulo-tablero">
 <span id="ref-008"></span><h2>Módulo tablero<a class="headerlink" href="#modulo-tablero" title="Permalink to this headline"></a></h2>
 <p>El módulo incluye la opción de configuración y dentro de este módulo están las opciones de la licencia de uso del sistema, de los usuarios del sistema, del idioma seleccionado, de las provincias y de los países. El módulo puede ser accedido únicamente por la cuenta administrador.</p>
 <section id="licencia-de-uso">
-<h3>Licencia de uso:<a class="headerlink" href="#licencia-de-uso" title="Permalink to this headline"></a></h3>
-<p>en esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.</p>
+<h3>Licencia de uso<a class="headerlink" href="#licencia-de-uso" title="Permalink to this headline"></a></h3>
+<p>En esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.</p>
 </section>
 <section id="usuarios">
 <h3>Usuarios:<a class="headerlink" href="#usuarios" title="Permalink to this headline"></a></h3>
 <p>El registro de usuarios en el sistema esta implementado con mecanismos de seguridad para garantizar la confidencialidad de la información. Para controlar el nivel de acceso que tiene un usuario y los privilegios de acceso a los datos el sistema se dispone de dos mecanismos.
-* El RBAC (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el
-* CRUD (conocido en inglés como Create, Read, Update, Delete) o Crear, Leer, Actualizar y Eliminar.</p>
+* El <strong>RBAC</strong> (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el
+* <strong>CRUD</strong> (conocido en inglés como Create, Read, Update, Delete) o Crear, Leer, Actualizar y Eliminar.</p>
 <p>A manera de ilustración la siguiente pantalla muestra la lista de usuarios registrados en el sistema:</p>
-<p>la siguiente pantalla es un ejemplo del reporte de usuarios:   la siguiente pantalla es un ejemplo del reporte del log de usuarios:    la siguiente pantalla es un ejemplo del reporte del log de actividad de los usuarios:   la siguiente pantalla es un ejemplo del reporte RBAC:   la siguiente pantalla es un ejemplo del reporte de privilegios:</p>
+<img alt="_images/list_users.png" src="_images/list_users.png" />
+<p>la siguiente pantalla es un ejemplo del reporte de usuarios:</p>
+<img alt="_images/reporte_de_usuarios.png" src="_images/reporte_de_usuarios.png" />
+<p>la siguiente pantalla es un ejemplo del reporte del log de usuarios:</p>
+<img alt="_images/reporte_de_usuarios_002.png" src="_images/reporte_de_usuarios_002.png" />
+<p>la siguiente pantalla es un ejemplo del reporte del log de actividad de los usuarios:</p>
+<img alt="_images/reporte_de_usuarios_003.png" src="_images/reporte_de_usuarios_003.png" />
+<p>la siguiente pantalla es un ejemplo del reporte RBAC:</p>
+<img alt="_images/reporte_de_usuarios_004.png" src="_images/reporte_de_usuarios_004.png" />
+<p>la siguiente pantalla es un ejemplo del reporte de privilegios:</p>
+<img alt="_images/reporte_de_usuarios_005.png" src="_images/reporte_de_usuarios_005.png" />
 </section>
 <section id="lenguaje">
-<h3>Lenguaje:<a class="headerlink" href="#lenguaje" title="Permalink to this headline"></a></h3>
+<h3>Lenguaje<a class="headerlink" href="#lenguaje" title="Permalink to this headline"></a></h3>
 <p>El sistema incluye las opciones para seleccionar el lenguaje de preferencia para navegar en el sistema. Al momento el sistema dispone de tres diccionarios que corresponden a los idiomas español, ingles y tailandés. El lenguaje de preferencia es el español por defecto. La configuración de lenguajes como el inglés o thai pueden ser configurados en el momento de la instalación utilizando los diccionarios correspondientes.</p>
 </section>
 <section id="provincias">
-<h3>Provincias:<a class="headerlink" href="#provincias" title="Permalink to this headline"></a></h3>
+<h3>Provincias<a class="headerlink" href="#provincias" title="Permalink to this headline"></a></h3>
 <p>El sistema permite realizar la gestión de las provincias en el Ecuador y de las ciudades. En esta opción el usuario establece los niveles de riesgo para las provincias y para las ciudades.</p>
 </section>
 <section id="paises">
-<h3>Países:<a class="headerlink" href="#paises" title="Permalink to this headline"></a></h3>
+<h3>Países<a class="headerlink" href="#paises" title="Permalink to this headline"></a></h3>
 <p>El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.</p>
 </section>
 </section>

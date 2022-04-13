@@ -167,68 +167,84 @@ El sistema ofrece un interfaz de usuario amigable para registrarse en el sistema
 
 .. _ref_006:
 
-
 Interfaz de barras de navegación del sistema
 --------------------------------------------
 
 El sistema cuenta con tres barras de navegación horizontales disponibles al usuario. La barra del nivel superior es la barra del módulo que está activo. La barra de navegación del medio es la barra del menú principal en donde el usuario puede seleccionar los módulos a los que desea ir. Y por último la tercera barra de navegación es la barra que se utiliza para el control de la sesión del usuario.  Esta última barra despliega la información de usuario en el siguiente orden: el nombre del usuario que tiene activa la sesión, el estado de autenticación del usuario, el estado de autorización del usuario, el nombre del rol del usuario, la fecha y hora registrada en el sistema correspondiente a la ultima sesión activa del usuario, y los privilegios de acceso a datos de la cuenta de usuario para crear, consultar, editar y eliminar. Los privilegios del usuario se desplegarán en fondo de color gris cuando el privilegio no está activo y en fondo de color azul cuando el privilegio está activo.
 
-
 La captura de pantalla siguiente a manera de ilustración muestra las tres barras de navegación horizontal. El mensaje con fondo de color verde *“El proceso de Control de Acceso Basado en Roles (RBAC) ha confirmado que el usuario ha sido autenticado y autorizado para ingresar al sistema. Su ultima sesión activa fue registrada el 25/01/2022 a las 13:08:20”* es desplegado para informar al usuario que las credenciales han sido procesadas por el módulo RBAC y que los privilegios de acceso a datos han sido otorgados a la cuenta de usuario:
+
+.. image:: /images/barras_de_navegacion.png 
+
+
+
 
 
 .. _ref_007:
   
-
 Menú principal del sistema
 --------------------------
 
+El menú principal del sistema tiene las opciones para salir del sistema, navegar en la barra de navegación del tablero o dashboard, selección de módulos del sistema, selección de los módulos de debida diligencia o DD, selección de opciones varios y selección en análisis exploratorio de datos o mejor conocido como **EDA** que son las siglas en lenguaje ingles para Exploratory Data Analysis.
 
-El menú principal del sistema tiene las opciones para salir del sistema, navegar en la barra de navegación del tablero o dashboard, selección de módulos del sistema, selección de los módulos de debida diligencia o DD, selección de opciones varios y selección en análisis exploratorio de datos o mejor conocido como EDA que son las siglas en lenguaje ingles para Exploratory Data Analysis.
+
+
+
 
 .. _ref_008:
-
 
 Módulo tablero
 --------------
 
 El módulo incluye la opción de configuración y dentro de este módulo están las opciones de la licencia de uso del sistema, de los usuarios del sistema, del idioma seleccionado, de las provincias y de los países. El módulo puede ser accedido únicamente por la cuenta administrador.
 
+Licencia de uso 
++++++++++++++++
 
-Licencia de uso: 
-++++++++++++++++
-en esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.
-
+En esta opción se mantienen los registros de la licencia de uso otorgada al usuario que renta el sistema como servicio.  La licencia de uso no tiene límite de usuarios. En esta opción de puede consultar la fecha de creación de la licencia, el tipo de licencia, la clase de licencia, el país al que se autoriza el uso de la licencia, fecha de la firma del contrato de licencia de uso, nacionalidad de la empresa, verificación de la licencia. El sistema tiene un registro de la licencia de uso del sistema. Lo que permite determinar al detalle los derechos del usuario que utiliza el sistema. La licencia de uso es configurada en el momento de la instalación del sistema.
 
 Usuarios:
 +++++++++
 
 El registro de usuarios en el sistema esta implementado con mecanismos de seguridad para garantizar la confidencialidad de la información. Para controlar el nivel de acceso que tiene un usuario y los privilegios de acceso a los datos el sistema se dispone de dos mecanismos.  
-* El RBAC (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el 
-* CRUD (conocido en inglés como Create, Read, Update, Delete) o Crear, Leer, Actualizar y Eliminar.
+* El **RBAC** (conocido en inglés como el Rol Base Access Control) o control de acceso basado en roles y el 
+* **CRUD** (conocido en inglés como Create, Read, Update, Delete) o Crear, Leer, Actualizar y Eliminar.
  
-A manera de ilustración la siguiente pantalla muestra la lista de usuarios registrados en el sistema: 
-  
-la siguiente pantalla es un ejemplo del reporte de usuarios:   la siguiente pantalla es un ejemplo del reporte del log de usuarios:    la siguiente pantalla es un ejemplo del reporte del log de actividad de los usuarios:   la siguiente pantalla es un ejemplo del reporte RBAC:   la siguiente pantalla es un ejemplo del reporte de privilegios:   
+A manera de ilustración la siguiente pantalla muestra la lista de usuarios registrados en el sistema:
 
+.. image:: /images/list_users.png 
 
+la siguiente pantalla es un ejemplo del reporte de usuarios:
 
+.. image:: /images/reporte_de_usuarios.png 
 
+la siguiente pantalla es un ejemplo del reporte del log de usuarios:    
 
+.. image:: /images/reporte_de_usuarios_002.png 
 
-Lenguaje: 
+la siguiente pantalla es un ejemplo del reporte del log de actividad de los usuarios:   
+
+.. image:: /images/reporte_de_usuarios_003.png 
+
+la siguiente pantalla es un ejemplo del reporte RBAC:   
+
+.. image:: /images/reporte_de_usuarios_004.png 
+
+la siguiente pantalla es un ejemplo del reporte de privilegios:
+
+.. image:: /images/reporte_de_usuarios_005.png
+
+Lenguaje 
 +++++++++
 
 El sistema incluye las opciones para seleccionar el lenguaje de preferencia para navegar en el sistema. Al momento el sistema dispone de tres diccionarios que corresponden a los idiomas español, ingles y tailandés. El lenguaje de preferencia es el español por defecto. La configuración de lenguajes como el inglés o thai pueden ser configurados en el momento de la instalación utilizando los diccionarios correspondientes.
 
-
-Provincias: 
+Provincias 
 +++++++++++
 
 El sistema permite realizar la gestión de las provincias en el Ecuador y de las ciudades. En esta opción el usuario establece los niveles de riesgo para las provincias y para las ciudades.
 
-
-Países: 
+Países 
 +++++++
 
 El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
@@ -236,8 +252,8 @@ El sistema permite realizar el ajuste del nivel de riesgo de país para Ecuador.
 
 
 
-.. _ref_009:
 
+.. _ref_009:
 
 Menú módulos
 ------------
@@ -250,11 +266,12 @@ El menú módulos permite navegar en cuatro módulos:
 
 
 
+
+
 .. _ref_010:
 
 Módulo Inversionistas
 ---------------------
-
 
 En este módulo se registra el perfil del cliente. La pantalla principal de este módulo es un tablero de control de los datos del cliente. En esta pantalla se despliega: 
 1. el número de identificación del cliente,
