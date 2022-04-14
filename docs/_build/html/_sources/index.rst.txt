@@ -19,21 +19,6 @@ MANUAL DEL USUARIO DEL SISTEMA CONOZCA A SU CLIENTE
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Entrenamiento
-
-   creating
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Capturas de pantalla
-
-   capturas_de_pantalla
-
-
-
-.. toctree::
    :maxdepth: 18
    :caption: Tabla de Contenido
 
