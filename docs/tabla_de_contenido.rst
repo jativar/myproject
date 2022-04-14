@@ -353,17 +353,40 @@ y la siguiente figura muestra la matriz de riesgo correspondiente a la ciudad:
 Módulo Inversiones
 ------------------
 
-En este módulo se despliegan las órdenes de los clientes. El tablero de información esta conformado por tres filas de información. La primera fila incluye el número de identificación del cliente, el número de la orden o de la inversión, incluye la opción para desplegar la matriz de riesgo de la inversión, incluye el módulo de gestión de calidad en donde se listan los procesos para el control de calidad de la orden, el nombre del cliente y la clase de inversionista. En la segunda fila se despliega el detalle de la orden de inversión que incluye el nombre del instrumento bursátil, el monto, la fecha de creación de la orden, la hora de creación de la orden, el nombre del usuario que creo la orden, la fecha de la ultima edición de la orden, la hora de la ultima edición de la orden y el nombre del usuario que editó la orden. Adicionalmente incluye la opción para eliminar la orden. En tablero incluye opciones de edición de la orden, despliegue de la matriz de riesgo de la orden y gestión de control de calidad de la orden.
-La pantalla siguiente muestra un ejemplo del formato de presentación de la matriz de riesgo de la orden:   la pantalla siguiente es un ejemplo del formato de presentación de edición de la orden:   la pantalla siguiente muestra el menú de opciones para acceder al módulo de gestión de calidad, en donde se despliegan los procesos para realizar el control de calidad de la orden:   en la figura se despliegan los procesos implementados para realizar el control de calidad. Y también esta incluido en la parte final de las opciones del menú el reporte de control de calidad. 
+En este módulo se despliegan las órdenes de los clientes. El tablero de información está conformado por tres filas de información. La primera fila incluye el número de identificación del cliente, el número de la orden o de la inversión, incluye la opción para desplegar la matriz de riesgo de la inversión, incluye el módulo de gestión de calidad en donde se listan los procesos para el control de calidad de la orden, el nombre del cliente y la clase de inversionista. En la segunda fila se despliega el detalle de la orden de inversión que incluye el nombre del instrumento bursátil, el monto, la fecha de creación de la orden, la hora de creación de la orden, el nombre del usuario que creo la orden, la fecha de la ultima edición de la orden, la hora de la ultima edición de la orden y el nombre del usuario que editó la orden. Adicionalmente incluye la opción para eliminar la orden. En tablero incluye opciones de edición de la orden, despliegue de la matriz de riesgo de la orden y gestión de control de calidad de la orden.
+La pantalla siguiente muestra un ejemplo del formato de presentación de la matriz de riesgo de la orden:
 
+.. image:: /images/riesgo_inversion.png 
 
-La siguiente figura muestra una sección del reporte de control de calidad. En este reporte se despliegan los procesos de control de calidad y las tareas que incluye cada proceso. Cuando las tareas han sido completadas las tareas se desplegaran con un check en la caja de chequeo. Cada proceso se despliega con el control interno de la tarea que incluye el log de registro del rol del usuario que realizó la tarea, la fecha en la que fue realizada, la hora en la que fue realizada, y el nombre del usuario que realizó la tarea:   la figura siguiente es un ejemplo de cómo se visualiza el proceso de control de calidad de la línea de proceso para clientes nuevos:
-  
-el módulo de control de calidad presenta la línea de procesos gráficamente.  En el caso que el usuario desea obtener información de la línea de procesos, tiene la opción de ir al módulo de control de calidad en donde tiene la opción de desplegar el control de calidad en formato detallado o en formato consolidado. A manera de ilustración la figura siguiente muestra un ejemplo del formato que tiene el reporte de control de calidad de la orden Nro. 0001 correspondiente al cliente Lauren Conrad:   el mismo reporte en formato consolidado es presentado de la siguiente forma:
-  
+la pantalla siguiente es un ejemplo del formato de presentación de edición de la orden:
+
+.. image:: /images/edicion_inversion.png 
+
+la pantalla siguiente muestra el menú de opciones para acceder al módulo de gestión de calidad, en donde se despliegan los procesos para realizar el control de calidad de la orden:
+
+.. image:: /images/control_calidad_inversion.png 
+
+en la figura se despliegan los procesos implementados para realizar el control de calidad. Y también esta incluido en la parte final de las opciones del menú el reporte de control de calidad. 
+
+La siguiente figura muestra una sección del reporte de control de calidad. En este reporte se despliegan los procesos de control de calidad y las tareas que incluye cada proceso. Cuando las tareas han sido completadas las tareas se desplegaran con un check en la caja de chequeo. Cada proceso se despliega con el control interno de la tarea que incluye el log de registro del rol del usuario que realizó la tarea, la fecha en la que fue realizada, la hora en la que fue realizada, y el nombre del usuario que realizó la tarea:
+
+.. image:: /images/reporte_de_control_de_calidad.png 
+
+la figura siguiente es un ejemplo de cómo se visualiza el proceso de control de calidad de la línea de proceso para clientes nuevos:
+
+.. image:: /images/linea_de_proceso_clientes_nuevos.png 
+
+el módulo de control de calidad presenta la línea de procesos gráficamente.  En el caso que el usuario desea obtener información de la línea de procesos, tiene la opción de ir al módulo de control de calidad en donde tiene la opción de desplegar el control de calidad en formato detallado o en formato consolidado. A manera de ilustración la figura siguiente muestra un ejemplo del formato que tiene el reporte de control de calidad de la orden Nro. 0001 correspondiente al cliente Lauren Conrad:
+
+.. image:: /images/reporte_de_control_de_calidad_detallado.png 
+
+el mismo reporte en formato consolidado es presentado de la siguiente forma:
+
+.. image:: /images/reporte_de_control_de_calidad_consolidado.png 
+
 por motivos de espacio no se incluye el reporte completo. Sin embargo a manera de ilustración se incluye una captura de pantalla del reporte completo en formato reducido:  
 
-
+.. image:: /images/reporte_de_control_de_calidad_en_formato_reducido.png 
 
 
 
@@ -372,13 +395,45 @@ por motivos de espacio no se incluye el reporte completo. Sin embargo a manera d
 .. _ref_012:
 
 Módulo Registro de Labor Comercial
-----------------------------------  
+----------------------------------
 
-El módulo de registro de labor comercial esta disponible desde la opción de menú módulos. El módulo ofrece las opciones para crear registros de labor comercial, obtener un reporte de la labor comercial, opciones de reportes consolidados y opciones de reportes detallados. Los reportes de labor comercial son desplegados de acuerdo a las opciones que se indiquen para la elaboración del reporte. Por ejemplo la figura siguiente es un ejemplo de las opciones disponibles para generar el reporte de labor comercial detallado por cliente:    el formulario para parametrizar el reporte es amigable y permite especificar un rango de fechas para la obtención de los registros de labor comercial que cumplen la condición del rango de fechas. La figura siguiente muestra a manera de ilustración el calendario con el mes de enero del año 2022 en el cual el usuario puede navegar por el calendario y seleccionar la fecha inicial deseada:  de igual manera la opción seleccionar el comercial incluye dinámicamente en el menú de opciones los nombres de los usuarios con el rol de comercial. Por ejemplo en la figura siguiente se muestra a manera de ilustración como se despliegan las opciones al usuario para que seleccione el nombre del comercial o si desea todos los comerciales:   un ejemplo de cómo luce el reporte de labor comercial con la selección de un rango de fechas se muestra en la siguiente figura:    para crear un registro de labor comercial el sistema permite especificar el nombre del comercial a cargo del cliente y el nombre del supervisor del comercial.  Al tener el nombre del supervisor del comercial y el nombre del comercial asignado al cliente el sistema de reportes de labor comercial se convierte en una herramienta de gestión para realizar el seguimiento de la labor comercial al detalle.  Por ejemplo la figura siguiente muestra el reporte de labor comercial con los comerciales monicabelluci y leahflicking en donde monicabelluci tiene el rol de comercial supervisor y también realiza la labor comercial:   
-en el reporte se despliegan todos los nombres de los usuarios con rol de comercial junto al nombre del evento, fecha de creación del registro de labor comercial, hora de creación del registro de labor comercial, la bandera que indica si el cliente tiene interés en el producto, y el monto del capital proyectado por el cliente a invertir. La pantalla siguiente muestra un ejemplo del formato del reporte de labor comercial de usuario comercial monicabelluci:   desde el mismo formulario que despliega el reporte el usuario puede ingresar nuevos parámetros para la generación del reporte. Por ejemplo puede especificar un nuevo rango de fechas, ingresar un número de identificación y seleccionar todos o un solo nombre de usuario con el rol de comercial.
+.. image:: /images/modulo_de_registro_de_labor_comercial.png 
+
+El módulo de registro de labor comercial esta disponible desde la opción de menú módulos. El módulo ofrece las opciones para crear registros de labor comercial, obtener un reporte de la labor comercial, opciones de reportes consolidados y opciones de reportes detallados. Los reportes de labor comercial son desplegados de acuerdo a las opciones que se indiquen para la elaboración del reporte. Por ejemplo la figura siguiente es un ejemplo de las opciones disponibles para generar el reporte de labor comercial detallado por cliente:
+
+.. image:: /images/reporte_de_labor_comercial_detallado_del_cliente.png 
+
+el formulario para parametrizar el reporte es amigable y permite especificar un rango de fechas para la obtención de los registros de labor comercial que cumplen la condición del rango de fechas. La figura siguiente muestra a manera de ilustración el calendario con el mes de enero del año 2022 en el cual el usuario puede navegar por el calendario y seleccionar la fecha inicial deseada:
+
+.. image:: /images/reporte_de_labor_comercial_fecha_inicial.png 
+
+de igual manera la opción seleccionar el comercial incluye dinámicamente en el menú de opciones los nombres de los usuarios con el rol de comercial. Por ejemplo en la figura siguiente se muestra a manera de ilustración como se despliegan las opciones al usuario para que seleccione el nombre del comercial o si desea todos los comerciales:   
+
+.. image:: /images/reporte_de_labor_comercial_nombre_del_comercial.png 
+
+un ejemplo de cómo luce el reporte de labor comercial con la selección de un rango de fechas se muestra en la siguiente figura:
+
+.. image:: /images/reporte_de_labor_comercial_detallado.png 
+
+para crear un registro de labor comercial el sistema permite especificar el nombre del comercial a cargo del cliente y el nombre del supervisor del comercial.  Al tener el nombre del supervisor del comercial y el nombre del comercial asignado al cliente el sistema de reportes de labor comercial se convierte en una herramienta de gestión para realizar el seguimiento de la labor comercial al detalle.  Por ejemplo la figura siguiente muestra el reporte de labor comercial con los comerciales monicabelluci y leahflicking en donde monicabelluci tiene el rol de comercial supervisor y también realiza la labor comercial:
+
+.. image:: /images/reporte_de_labor_comercial_detallado_001.png 
+
+en el reporte se despliegan todos los nombres de los usuarios con rol de comercial junto al nombre del evento, fecha de creación del registro de labor comercial, hora de creación del registro de labor comercial, la bandera que indica si el cliente tiene interés en el producto, y el monto del capital proyectado por el cliente a invertir. La pantalla siguiente muestra un ejemplo del formato del reporte de labor comercial de usuario comercial monicabelluci:   
+
+.. image:: /images/reporte_de_labor_comercial_detallado_002.png 
+
+desde el mismo formulario que despliega el reporte el usuario puede ingresar nuevos parámetros para la generación del reporte. Por ejemplo puede especificar un nuevo rango de fechas, ingresar un número de identificación y seleccionar todos o un solo nombre de usuario con el rol de comercial.
 
 
-La figura siguiente muestra a manera de ilustración un ejemplo del total proyectado del registro de labor comercial sin especificar un rango de fechas:   el mismo reporte indicado en la figura de arriba en el formato consolidado se muestra de la siguiente forma:   
+La figura siguiente muestra a manera de ilustración un ejemplo del total proyectado del registro de labor comercial sin especificar un rango de fechas:
+
+.. image:: /images/total_proyectado_del_registro_de_labor_comercial.png 
+
+el mismo reporte indicado en la figura de arriba en el formato consolidado se muestra de la siguiente forma:   
+
+.. image:: /images/total_proyectado_del_registro_de_labor_comercial_001.png 
+
 
 
 
@@ -389,7 +444,13 @@ La figura siguiente muestra a manera de ilustración un ejemplo del total proyec
 Módulo Control de Calidad
 -------------------------
 
-La figura siguiente muestra la forma de acceder al módulo de control de calidad:   el módulo incluye dos opciones. El reporte detallado de control de calidad y el reporte consolidado de control de calidad. En las páginas anteriores en la sección correspondiente al módulo de inversiones se mostró algunas pantallas de ejemplo de los reportes de control de calidad detallado y consolidado.
+La figura siguiente muestra la forma de acceder al módulo de control de calidad:
+
+.. image:: /images/modulo_de_control_de_calidad.png 
+
+el módulo incluye dos opciones. El reporte detallado de control de calidad y el reporte consolidado de control de calidad. En las páginas anteriores en la sección correspondiente al módulo de inversiones se mostró algunas pantallas de ejemplo de los reportes de control de calidad detallado y consolidado.
+
+
 
 
 
@@ -398,7 +459,13 @@ La figura siguiente muestra la forma de acceder al módulo de control de calidad
 Módulo de la debida diligencia o DD
 -----------------------------------
 
-La pantalla siguiente muestra a manera de ilustración el menú de opciones de la debida diligencia:   en el módulo de la DD el usuario puede ingresar a los módulos de gestión de cónyuges declarados por el cliente, representante o representantes legales declarados por el cliente, detalle de ingresos declarados por el cliente, detalle de egresos declarados por el cliente, detalle de los recursos lícitos declarados por el cliente, detalle de los bienes muebles declarados por el cliente, detalle de los bienes inmuebles declarados por el cliente, detalle de las cuentas en instituciones financieras declaradas por el cliente, detalle de las cuentas en tarjetas de crédito declarados por el cliente, política conozca a su cliente o KYC (Know Your Client) en las siglas en el idioma inglés, detalle de dependencia de terceros declarados por el cliente y el reporte de la lista de verificación de la debida diligencia.
+La pantalla siguiente muestra a manera de ilustración el menú de opciones de la debida diligencia:   
+
+.. image:: /images/modulo_de_debida_diligencia.png 
+
+en el módulo de la DD el usuario puede ingresar a los módulos de gestión de cónyuges declarados por el cliente, representante o representantes legales declarados por el cliente, detalle de ingresos declarados por el cliente, detalle de egresos declarados por el cliente, detalle de los recursos lícitos declarados por el cliente, detalle de los bienes muebles declarados por el cliente, detalle de los bienes inmuebles declarados por el cliente, detalle de las cuentas en instituciones financieras declaradas por el cliente, detalle de las cuentas en tarjetas de crédito declarados por el cliente, política conozca a su cliente o KYC (Know Your Client) en las siglas en el idioma inglés, detalle de dependencia de terceros declarados por el cliente y el reporte de la lista de verificación de la debida diligencia.
+
+
 
 
 
@@ -407,7 +474,14 @@ La pantalla siguiente muestra a manera de ilustración el menú de opciones de l
 Módulo varios
 -------------
 
-La figura siguiente muestra a manera de ilustración el menú de opciones del módulo varios:   las opciones disponibles en este módulo son el módulo de búsquedas, el módulo de reportes y el módulo de matriz de riesgo.
+La figura siguiente muestra a manera de ilustración el menú de opciones del módulo varios:   
+
+.. image:: /images/modulo_varios.png 
+
+las opciones disponibles en este módulo son el módulo de búsquedas, el módulo de reportes y el módulo de matriz de riesgo.
+
+
+
 
 
 .. _ref_016:
@@ -417,38 +491,76 @@ Módulo de búsquedas
 
 El módulo de búsquedas tiene dos opciones.  La primera opción despliega la pagina web de OFAC y la segunda opción despliega la opción de búsquedas en la Fiscalía General del Estado del Ecuador. 
 
-
 OFAC
 ++++
-La pantalla siguiente es un ejemplo del despliegue de la pagina web de OFAC, en donde el usuario puede realizar consultas:    la siguiente figura muestra la pantalla de búsquedas en las paginas de la fiscalía general del estado del Ecuador:   la siguiente figura muestra los resultados de la búsqueda utilizando el nombre Guillermo Lasso en las páginas de la fiscalía general del estado:    los resultados obtenidos son desplegados en tres columnas. El title, el link y snippet. Los resultados fueron obtenidos utilizando el motor de búsqueda de google que para los propósitos del sistema esta personalizado para buscar únicamente en las paginas web de la fiscalía general del estado del Ecuador (FGE). Sin embargo dependiendo de los requerimientos del usuario que adquiere el sistema el motor de búsqueda puede ser configurado para incluir otras fuentes de datos y de esta forma la búsqueda podrá ser realizada en un ámbito más amplio de datos. 
+
+La pantalla siguiente es un ejemplo del despliegue de la pagina web de OFAC, en donde el usuario puede realizar consultas:    
+
+.. image:: /images/OFAC.png 
+
+Fiscalía General del Estado del Ecuador
++++++++++++++++++++++++++++++++++++++++
+
+la siguiente figura muestra la pantalla de búsquedas en las paginas de la fiscalía general del estado del Ecuador:
+
+.. image:: /images/fiscalia_general_del_estado_ecuador.png 
+
+la siguiente figura muestra los resultados de la búsqueda utilizando el nombre Guillermo Lasso en las páginas de la fiscalía general del estado:    
+
+.. image:: /images/resultado_de_busqueda_fiscalia_general_del_estado_ecuador.png 
+
+los resultados obtenidos son desplegados en tres columnas. El title, el link y snippet. Los resultados fueron obtenidos utilizando el motor de búsqueda de google que para los propósitos del sistema esta personalizado para buscar únicamente en las paginas web de la fiscalía general del estado del Ecuador (FGE). Sin embargo dependiendo de los requerimientos del usuario que adquiere el sistema el motor de búsqueda puede ser configurado para incluir otras fuentes de datos y de esta forma la búsqueda podrá ser realizada en un ámbito más amplio de datos. 
+
+
+
 
 
 .. _ref_017:
-
 
 Módulo de reportes
 ------------------
 
 La figura siguiente muestra el módulo reportes que incluye reportes en las siguientes áreas: Política conozca a su cliente, debida diligencia, personas naturales y jurídicas, UAFE y cartera. A manera de ilustración la siguiente figura muestra el formato de la página de reportes:
 
-
-  
-
-
+.. image:: /images/modulo_de_reportes.png 
 
 A manera de ilustración la figura siguiente muestra la interfaz del usuario para la obtención del reporte (RESU) – Reporte de operaciones y transacciones individuales múltiples sobre el umbral de USD 10,000.00 dentro de un rango de fechas especificado por el usuario:
   
-la figura siguiente muestra un ejemplo del formato de salida del reporte RESU:   
-la figura siguiente muestra a manera de ilustración el ejemplo del reporte RESU listando transacciones individuales y transacciones múltiples:   
-la figura siguiente muestra a manera de ilustración la pantalla para la obtención del reporte ROII:   la figura siguiente muestra a manera de ilustración un ejemplo del reporte ROII:   
+.. image:: /images/interfaz_reporte_RESU.png 
+
+la figura siguiente muestra un ejemplo del formato de salida del reporte RESU:
+
+.. image:: /images/reporte_RESU.png 
+
+la figura siguiente muestra a manera de ilustración el ejemplo del reporte RESU listando transacciones individuales y transacciones múltiples:
+
+.. warning:: Reporte RESU
+   
+   Incluir reporte RESU
+
+
+la figura siguiente muestra a manera de ilustración la pantalla para la obtención del reporte ROII:   
+
+.. warning:: Interfaz Reporte ROII
+   
+   Incluir interfaz reporte ROII
+
+
+la figura siguiente muestra a manera de ilustración un ejemplo del reporte ROII:   
+
+.. warning:: Reporte ROII
+   
+   Incluir reporte ROII
+
+
 
 
 
 .. _ref_018:
-
 
 Módulo de matriz de riesgo
 --------------------------
 
 En este módulo se puede obtener la matriz de riesgo de una inversión. La figura siguiente ilustra el formato del reporte de la matriz de riesgo:   
 
+.. image:: /images/matriz_de_riesgo.png 
